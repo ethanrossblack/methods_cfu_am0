@@ -58,7 +58,6 @@ puts full_name.center(41, "~")
 # The index method returns the integer index of the first occurence of the argument string passed in within the string to which index is called.
 # In this example, the first occurence of the argument string "u" appears at the 1 index of the string object "Turing".
 # The puts command prints the return value of the index method (1) to the console.
-
 school = "Turing"
 puts school.index("u")
 
@@ -88,3 +87,20 @@ puts number2.abs
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+# The first method is called on the bandmates variable, which stores an array of Beatles.
+# The first method returns the first object from an array when no argument is given.
+# In this example, the first method returns the string "John", the first object in the bandmates array.
+# The puts command prints the return value of the first method ("John") to the console.
+
+bandmates = ["John", "Paul", "George", "Ringo"]
+puts bandmates.first
+
+# The empty? method is called on the stomach_contents variable, which stores a blank array.
+# The empty? method returns true if the count of elements in an array is zero.
+# In this example, the empty? method returns the boolean true, because there are no objects in the stomach_contents array.
+# The puts command prints the return value of the empty? method (true) to the console.
+# Can you tell this is the last one I'm doing before lunch?s
+
+stomach_contents = []
+puts stomach_contents.empty?
