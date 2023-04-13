@@ -49,13 +49,13 @@ puts first_name.start_with?("J")
 
 # The center method is called on the full_name variable, which stores the string object "Ethan Black".
 # The center method returns the full_name variable centered in a string with the length of the first argument passed in and padded by a repeated string of the second argument passed in.
-# In this exampled, the return value is "~~~~~~~~~~~~~~~Ethan Black~~~~~~~~~~~~~~~", a string 41 characters long that centers the string "Ethan Black" padded by repetitions of the string "~"
+# In this example, the return value is "~~~~~~~~~~~~~~~Ethan Black~~~~~~~~~~~~~~~", a string 41 characters long that centers the string "Ethan Black" padded by repetitions of the string "~"
 # The puts command prints the return value of the center method (~~~~~~~~~~~~~~~Ethan Black~~~~~~~~~~~~~~~) to the console.
 full_name = "Ethan Black" 
 puts full_name.center(41, "~")
 
-# The index method is called on the school variable, which stores the string object "Turing"
-# The index method returns the integer index of the first occurence of the argument string passed in.
+# The index method is called on the school variable, which stores the string object "Turing".
+# The index method returns the integer index of the first occurence of the argument string passed in within the string to which index is called.
 # In this example, the first occurence of the argument string "u" appears at the 1 index of the string object "Turing".
 # The puts command prints the return value of the index method (1) to the console.
 
@@ -69,7 +69,19 @@ puts school.index("u")
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+# The gcd method is called on the on the number1 variable, which stores the integer 16.
+# The gcd method returns a positive integer of the greatest common divisor of the integer upon which gcd is called and another integer passed in as an argument.
+# In this example, the gcd method returns the integer 8, the greatest common divisor of the variable number1 (16) and the argument (72).
+# The puts command prints the return value of the gcd method (8) to the console.
+number1 = 16
+puts number1.gcd(72)
 
+# The abs method is called on the on the number2 variable, which stores the integer -500.
+# The abs method returns the absolute value of the integer on which it is called and does not receive any arguments.
+# In this example, the abs method returns the integer 500, the absolute value of -500.
+# The puts command prints the return value of the abs method (500) to the console.
+number2 = -500
+puts number2.abs
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
