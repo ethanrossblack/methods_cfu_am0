@@ -100,7 +100,7 @@ puts bandmates.first
 # The empty? method returns true if the count of elements in an array is zero.
 # In this example, the empty? method returns the boolean true, because there are no objects in the stomach_contents array.
 # The puts command prints the return value of the empty? method (true) to the console.
-# Can you tell this is the last one I'm doing before lunch?s
+# Can you tell this is the last one I'm doing before lunch?
 
 stomach_contents = []
 puts stomach_contents.empty?
